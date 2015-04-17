@@ -19,21 +19,18 @@ const (
 	productsFile = "amazonstore.json"
 )
 
-// AmazonStore provides products from amazon.com. It uses the Product Advertising
-// API to fetch the products.
+// AmazonStore provides products from amazon.com.
 //
-// The products are stored in the amazonstore.json file. It tries to rebuild
-// the file every 4 hours.
+// It uses the Product Advertising API to fetch the products. The products are
+// stored in the amazonstore.json file.
 type AmazonStore struct {
 	Products             map[string]Product  `json:"products"`
 	ProductIDs           []string            `json:"productIDs"`
 	ProductIDsByCategory map[string][]string `json:"productIDsByCategory"`
 }
 
-// NewAmazonStore creates a new AmazonStore.
-//
-// It reads the products from the amazonstore.json file. If the file is missing
-// it tries to create it by fetching products from the Product Advertising API.
+// NewAmazonStore creates a new AmazonStore. It reads the products from
+// the amazonstore.json file.
 func NewAmazonStore() AmazonStore {
 	store := AmazonStore{
 		Products:             make(map[string]Product),
