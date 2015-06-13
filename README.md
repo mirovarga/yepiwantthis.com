@@ -2,7 +2,7 @@
 
 An Amazon affiliate website written in Go using
 the [Amazon product advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html).
-It was available at [yepiwantthis.com](http://yepiwantthis.com) for a short time.
+It was available at *yepiwantthis.com* for a short time.
 
 The website got rejected by Amazon (more info on
 [my blog](http://www.mirovarga.com/my-amazon-affiliate-experiment-a-sequel)) so
