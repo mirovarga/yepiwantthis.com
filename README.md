@@ -6,8 +6,7 @@ It was available at *yepiwantthis.com* for a short time.
 
 The website got rejected by Amazon (more info on
 [my blog](http://www.mirovarga.com/my-amazon-affiliate-experiment-a-sequel)) so
-I decided to host the source code on GitHub to be able to demonstrate my Go
-skills when applying for Go projects.
+I decided to host the code on GitHub to help others use the API.
 
 
 ## What it does
@@ -15,10 +14,10 @@ skills when applying for Go projects.
 Just run it and see for yourself :)
 
 ```
-$ go get github.com/dominicphillips/amazing
-$ go get github.com/kennygrant/sanitize
-$ go get github.com/gorilla/mux
-$ go get github.com/gosimple/slug
+$ go get github.com/dominicphillips/amazing \
+  github.com/kennygrant/sanitize \
+  github.com/gorilla/mux \
+  github.com/gosimple/slug
 ```
 ```
 $ go run website.go amazonstore.go store.go
