@@ -4,9 +4,8 @@ An Amazon affiliate website written in Go using
 the [Amazon product advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html).
 It was available at *yepiwantthis.com* for a short time.
 
-The website got rejected by Amazon (more info on
-[my blog](http://www.mirovarga.com/my-amazon-affiliate-experiment-a-sequel)) so
-I decided to host the code on GitHub to help others use the API.
+The website got rejected by Amazon so I decided to host the code on GitHub to
+help others use the API.
 
 
 ## What it does
@@ -35,3 +34,8 @@ generated on March 27, 2015.
 
 The website uses just one [html/template](http://golang.org/pkg/html/template/)
 template.
+
+
+> There's also a
+[blog post](http://www.mirovarga.com/my-amazon-affiliate-experiment-a-sequel)
+on my blog.
